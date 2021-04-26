@@ -11,6 +11,14 @@ if ((emailUtente == "evelingcastillon@gmail.com") || (emailUtente == "ricardojar
     console.log(dadoUtente);
     var dadoPc = Math.floor(Math.random() * 6) + 1
     console.log(dadoPc);
+        if (dadoUtente > dadoPc) {
+            console.log("Vinto");
+        } else if (dadoUtente == dadoPc) {
+            console.log("Pareggio");
+
+        } else {
+            console.log("HA VINTO IL PC");
+        }
 } else {
     console.log("EMAIL NO VALIDA!");
 }
